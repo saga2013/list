@@ -5,8 +5,8 @@ import data from './data.json';
 
 const App = () => {
   return (
-    <div className=' w-[1400px] h-[1200px] mx-auto '>
-        <h1 className=' ml-[135px] mt-[19px] mb-[64px] text-4xl font-bold '>Users</h1>
+    <div className=' w-[1512px] h-[1213px] mx-auto '>
+        <h1 className=' ml-[180px] mt-[23px] mb-[64px] text-4xl font-bold '>Users</h1>
       <div className='flex flex-wrap gap-[79px] w-[1400px] h-[1200px] mx-auto px-[80px] justify-center '>
               {data.map((el)=> <Card key={el.id} {...el}/> )}
 
